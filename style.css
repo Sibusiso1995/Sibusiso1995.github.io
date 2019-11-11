@@ -1,0 +1,21 @@
+body{
+	background-image: url(../Css/Background-image/cape_town.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.style{
+	color: white; 
+	background: black; 
+	border-radius: 500px;
+}
+
+.box{
+	color: white;
+	font-size: 20px;
+}
+
+@media{
+	max-width: 600px;
+	
+}
