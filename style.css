@@ -1,5 +1,5 @@
 body{
-	background-image: url(../Css/Background-image/cape_town.jpg);
+	background-image: url(images/cape_town.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -15,7 +15,13 @@ body{
 	font-size: 20px;
 }
 
-@media{
-	max-width: 600px;
-	
+ul li{
+	list-style-type: none;
+	display: inline;
 }
+@media (max-width: 700px) {
+	ul li{
+	  list-style-type: none;
+	  display: list-item;
+	}
+  }
