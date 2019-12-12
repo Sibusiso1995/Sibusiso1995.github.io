@@ -2,12 +2,24 @@ body{
 	background-image: url(images/cape_town.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	
 
 }
 .style{
+	display: grid;
 	color: white; 
 	background: black; 
 	border-radius: 500px;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 100%;
+	color: white;
+	align-items: center;
+	width: 600px;
+	margin: 0px auto;
+	padding-top: 50px;
 }
 
 .box{
@@ -23,5 +35,8 @@ ul li{
 	ul li{
 	  list-style-type: none;
 	  display: list-item;
+	}
+	.wrapper{
+		width: 100%;
 	}
   }
